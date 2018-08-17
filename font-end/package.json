@@ -1,0 +1,39 @@
+{
+  "name": "font-end",
+  "version": "1.0.0",
+  "description": "学生成绩管理系统的前端",
+  "main": "index.js",
+  "author": "郑启华",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "webpack --mode production --config webpack.config.js",
+    "pack": "webpack --mode development --config webpack.config.js",
+    "dev": "webpack-dev-server --mode development"
+  },
+  "dependencies": {
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.0.2",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "postcss-cli": "^6.0.0",
+    "postcss-loader": "^3.0.0",
+    "poststylus": "^1.0.0",
+    "style-loader": "^0.21.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "url-loader": "^1.0.1",
+    "vue-loader": "^15.3.0",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
