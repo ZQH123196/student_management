@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "vue-router": "^3.0.1"
+  },
+  "dependencies": {
+    "reset-css": "^4.0.1"
   }
 }

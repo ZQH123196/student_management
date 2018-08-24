@@ -1,7 +1,5 @@
 <template>
-  <div id="text">
-    {{text}}
-    <br>
+  <div>
     <router-link to="/">/</router-link>
     <br>
     <router-link to="/login">/login</router-link>
@@ -21,13 +19,14 @@
 export default {
   data() {
     return {
-      text: "vue + stylus"
+      
     };
   }
 };
 </script>
 
 <style lang="stylus">
+@import '/path/to/reset-css/reset.css';
 body {
   color: red;
   background-image: url('./assets/images/[fox]wallls.com_179505.jpg');
