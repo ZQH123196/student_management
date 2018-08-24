@@ -26,8 +26,6 @@ export default {
 </script>
 
 <style lang="stylus">
-@import '../node_modules/reset-css/reset.css';
-@import './assets/border.css';
 body {
   color: red;
   background-image: url('./assets/images/[fox]wallls.com_179505.jpg');

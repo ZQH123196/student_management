@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "vue-router": "^3.0.1"
+  },
+  "dependencies": {
+    "fastclick": "^1.0.6",
+    "reset-css": "^4.0.1"
+  }
+}
